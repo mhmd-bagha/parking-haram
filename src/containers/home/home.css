@@ -1,0 +1,221 @@
+.home {
+    align-items: center;
+    margin-top: 4rem;
+    min-height: calc(100vh - 160px) !important;
+    max-height: calc(100vh - 160px) !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.fs-16p {
+    font-size: 16px !important;
+}
+
+.bg_list_parking_all_views {
+    color: var(--bs-dark);
+    transition: .6s all ease;
+    margin: 0 .4rem 0 .4rem;
+}
+
+.bg_list_parking_all_views.active {
+    background: #E3EDFE !important;
+    color: #1669fa !important;
+    font-weight: bold !important;
+}
+
+.btn_science_blue {
+    background: var(--color-science-blue) !important;
+    color: var(--bs-white);
+}
+
+.hover_gray:hover {
+    opacity: 1 !important;
+    color: rgba(255, 255, 255, .5) !important;
+    cursor: pointer !important;
+}
+
+.border_parking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed var(--color-spanish-gray-border) !important;
+    width: 55px;
+    height: 80px;
+}
+
+.border_number_parking {
+    width: 27px;
+    height: 21px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: .3rem;
+    transform: translateY(38px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0;
+}
+
+.border_number_parking_bottom {
+    width: 27px;
+    height: 21px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: .3rem;
+    transform: translateY(-38px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0;
+}
+
+.parkings li {
+    margin: .1rem !important;
+}
+
+.parking_null {
+    width: 85%;
+    height: 88%;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, rgba(0, 96, 201, 0.6) 0%, rgba(0, 96, 201, 0.1) 100%);
+    border: 1px solid #0060c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bs-white);
+}
+
+.parking_null_red {
+    width: 85%;
+    height: 88%;
+    border-radius: 5px;
+    background-color: rgba(255, 217, 217);
+    border: 1px solid #ff4040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4040;
+}
+
+.parking_border_null_after {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 5px;
+    background: #ffffff;
+    transform: translateY(2.7rem);
+}
+
+.parking_border_null_after_bottom {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 5px;
+    background: #ffffff;
+    transform: translateY(-2.7rem);
+}
+
+.car_bottom {
+    transform: rotate(180deg);
+}
+
+.bg_tab_stops {
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_tab_stops button {
+    color: var(--bs-dark) !important;
+    transition: .7s all ease;
+}
+
+.bg_tab_stops button.active {
+    background: #ffffff !important;
+    color: var(--bs-dark) !important;
+}
+
+.bg_stop_card_number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    background: #0060C9;
+    color: var(--bs-white);
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.img_all_parking_view {
+    width: 220px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 0 0 0 .6rem;
+}
+
+.text_all_parking_view {
+    width: 61px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #0060c9;
+    position: absolute;
+    margin: .4rem -.1rem 0 0;
+    transform: translateX(-10.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.add_camera {
+    width: 220px;
+    height: 130px;
+    border-radius: 7px;
+    background-color: #fbfbfb;
+    border: 1.5px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_camera img:first-child {
+    position: absolute;
+    transform: translate(-.2rem, .8rem);
+}
+
+.add_camera p {
+    position: absolute;
+    transform: translateY(3rem);
+}
+.chart_parking{
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+}
+.chart_parking .progress {
+    width: 200px;
+    height: 45px;
+    transform: rotate(90deg) !important;
+    background: #f4f4f4;
+}
+
+.chart_parking .progress-bar {
+    background: #00e4ff;
+    color: var(--bs-white);
+}
+
+.chart_parking .progress-bar span {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    transform: rotate(-90deg);
+}
+
+.chart_parking_text {
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    transform: translate(-5.3rem, 6.2rem) rotate(-90deg);
+}
