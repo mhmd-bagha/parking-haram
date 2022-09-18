@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea597c72.css",
+    "main.js": "/static/js/main.41437ec5.js",
+    "static/js/787.b2fbf63d.chunk.js": "/static/js/787.b2fbf63d.chunk.js",
+    "static/media/camera-3.png": "/static/media/camera-3.5a54d13f9d692d5516a7.png",
+    "static/media/camera-4.png": "/static/media/camera-4.116201ae361e3c69d4b1.png",
+    "static/media/camera-2.png": "/static/media/camera-2.604db7126fc518bff4e9.png",
+    "static/media/iransans.eot": "/static/media/iransans.344f8014d4a3c62e4c8f.eot",
+    "static/media/iransans.woff": "/static/media/iransans.82710551b20d5d99ed68.woff",
+    "static/media/iransans.woff2": "/static/media/iransans.ad42a3e7d4c08e9f2d24.woff2",
+    "index.html": "/index.html",
+    "main.ea597c72.css.map": "/static/css/main.ea597c72.css.map",
+    "main.41437ec5.js.map": "/static/js/main.41437ec5.js.map",
+    "787.b2fbf63d.chunk.js.map": "/static/js/787.b2fbf63d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea597c72.css",
+    "static/js/main.41437ec5.js"
+  ]
+}

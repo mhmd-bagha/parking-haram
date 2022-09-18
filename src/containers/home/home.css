@@ -1,10 +1,6 @@
 .home {
-    align-items: center;
-    margin-top: 4rem;
-    min-height: calc(100vh - 160px) !important;
-    max-height: calc(100vh - 160px) !important;
+    padding: 1.4rem 1rem 0 1rem;
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .fs-16p {
@@ -24,14 +20,29 @@
 }
 
 .btn_science_blue {
-    background: var(--color-science-blue) !important;
-    color: var(--bs-white);
+    background: var(--color-science-blue);
+    color: var(--bs-white) !important;
+    border: none;
+    outline: none;
+}
+
+.btn_science_blue:hover {
+    background: rgba(0, 97, 201, .8);
+}
+
+.btn_science_blue:focus {
+    background: rgba(0, 98, 250, .9);
 }
 
 .hover_gray:hover {
     opacity: 1 !important;
     color: rgba(255, 255, 255, .5) !important;
     cursor: pointer !important;
+}
+
+.ico_contact {
+    width: 18px;
+    height: 18px;
 }
 
 .border_parking {
@@ -41,6 +52,7 @@
     border: 3px dashed var(--color-spanish-gray-border) !important;
     width: 55px;
     height: 80px;
+    margin: 0 .3rem 0 .3rem;
 }
 
 .border_number_parking {
@@ -151,8 +163,8 @@
 }
 
 .img_all_parking_view {
-    width: 220px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     margin: 0 0 0 .6rem;
 }
@@ -164,16 +176,16 @@
     background-color: #0060c9;
     position: absolute;
     margin: .4rem -.1rem 0 0;
-    transform: translateX(-10.5rem);
+    left: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: .8rem;
 }
 
 .add_camera {
-    width: 220px;
-    height: 130px;
+    padding: calc(23% - .7vh);
+    width: 100%;
+    height: 100%;
     border-radius: 7px;
     background-color: #fbfbfb;
     border: 1.5px solid #e5e5e5;
@@ -189,33 +201,49 @@
 
 .add_camera p {
     position: absolute;
-    transform: translateY(3rem);
-}
-.chart_parking{
-    padding-top: 1.7rem;
-    padding-bottom: 1.7rem;
-}
-.chart_parking .progress {
-    width: 200px;
-    height: 45px;
-    transform: rotate(90deg) !important;
-    background: #f4f4f4;
+    transform: translateY(2.7rem);
 }
 
-.chart_parking .progress-bar {
-    background: #00e4ff;
-    color: var(--bs-white);
+.chart_items {
+    margin: 0 .8rem 0 .8rem;
 }
 
-.chart_parking .progress-bar span {
+.chart_item {
+    width: 45px;
+    height: 17.5vh;
+    background: var(--color-bright-gray);
+    content: "";
+    border: none;
+    border-radius: .4rem;
+    text-align: center;
+}
+
+.chart {
+    background: #00E4FF;
+    border-radius: .2rem;
     position: relative;
-    font-size: 15px;
-    font-weight: bold;
-    transform: rotate(-90deg);
+    transform: translateY(0);
 }
 
-.chart_parking_text {
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    transform: translate(-5.3rem, 6.2rem) rotate(-90deg);
+.chart_text {
+    top: -20px;
+    position: relative;
+    font-size: calc(1.3rem - 3.5px) !important;
+    font-weight: bold;
+    color: #fbfbfb;
+}
+
+.chart_label {
+    white-space: nowrap;
+    font-weight: bold;
+    position: relative;
+    color: var(--color-dark-gray);
+    top: 3px;
+}
+
+.scroll_chart_items {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    min-width: 100%;
+    max-width: 100%;
 }
